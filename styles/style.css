@@ -34,12 +34,12 @@ h1{
 
 
 .x:after{
-    content: url("./Images/X.png");
+    content: url("../images/x.png");
     font-size: 70px;
     
 }
 .o::after{
-    content: url("./Images/O.png");
+    content: url("../images/o.png");
 }
 #reset{
     margin: auto;
