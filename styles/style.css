@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Festive&display=swap');
+
+body{
+background-color: cornflowerblue;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 320px;
+    width: 320px;
+    margin: auto;
+}
+.square{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.s1, .s2, .s4, .s5, .s7, .s8{
+    border-right: 5px solid black;
+}
+.s1, .s2, .s3, .s4, .s5, .s6{
+    border-bottom: 5px solid black;
+}
+
+
+.x:after{
+    content: url("/Images/X.png");
+    font-size: 70px;
+    
+}
+.o::after{
+    content: url("/Images/O.png");
+}
+#reset{
+    margin: auto;
+    margin-top: 50px;
+    padding: 6px;
+    background-color: rgb(190, 188, 190);
+    border-radius: 7px;
+    border: solid 1px black;
+}
+#reset:hover{
+    background-color: rgb(225, 231, 248);
+}
+#reset:active{
+    background-color: rgb(225, 231, 248);
+
+    font-size: 12px;
+}
+
+.winner{
+    display: none;
+
+    font-family: serif;
+    font-size: 20px;
+
+    width: 200px;
+    margin-top: 50px;
+    padding: 10px;
+
+    background-color: rgb(146, 142, 146);
+    color: rgb(8, 7, 7);
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+#botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
